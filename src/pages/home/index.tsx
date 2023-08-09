@@ -23,6 +23,7 @@ export default function Home() {
           display: "flex",
           flexWrap: "wrap",
           height: "100vh",
+          minWidth: "800px",
           justifyContent: "center",
           alignItems: "center",
           "& > :not(style)": {
@@ -47,15 +48,15 @@ export default function Home() {
                 sx={{ textTransform: "uppercase" }}
                 textAlign="center"
               >
-                Carlos Iguaro
+                <strong>DEV:</strong> Carlos Iguaro
               </Typography>
             </div>
           </FontPage>
         </Paper>
 
         <Paper variant="outlined" className="h-v-align">
-          <div className="h-align">
-            <Card sx={{ width: 400 }}>
+          <div className="h-align w-100">
+            <Card sx={{ width: '90%', maxWidth: "350px" }}>
               <CardContent>
                 <Typography
                   variant="h4"

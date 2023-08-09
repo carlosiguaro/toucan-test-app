@@ -44,7 +44,7 @@ export default function Dashboard({ user }: UserType) {
           <div className="w-75">
             <Button variant="outlined" onClick={e =>  router.replace("/map")} size="medium" className="w-100">
               <TravelExploreIcon className="mr-1" />
-              <Typography variant="subtitle1">Map Component</Typography>
+              <Typography variant="subtitle1">Leaflet Maps</Typography>
             </Button>
           </div>
         </Paper>

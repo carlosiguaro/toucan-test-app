@@ -1,0 +1,58 @@
+main#map-view-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main#map-view-container >div {
+    width: 90%;
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+}
+.map-container > div:first-child{
+    display: flex;
+    flex-direction: row;
+    margin: .5em 0;
+}
+.map-container > div:first-child > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0.5em 1em;
+}
+.map-container > div:first-child > div:first-child {
+    border-right: 1px solid #c3c3c3;
+}
+.map-container > div:first-child > div > h6{
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+.map-container > div:first-child > div:first-child{
+    justify-content: space-between;
+}
+.map-container > div:first-child > div:first-child > div {
+    display: flex;
+    flex-direction: column;
+}
+.map-container > div:first-child > div:first-child > div label {
+    font-family: "Roboto","Helvetica","Arial",sans-serif
+}
+.map-container > div:first-child > div:first-child > div label:first-child{
+    margin-bottom: .5em;
+}
+
+main#map-view-container h1,
+main#map-view-container h2,
+main#map-view-container h3,
+main#map-view-container h4,
+main#map-view-container h5, 
+main#map-view-container h6, 
+label{
+    color: #6c6c6c;
+}

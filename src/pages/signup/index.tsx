@@ -117,25 +117,8 @@ export default function Signup() {
           },
         }}
       >
-        <Paper
-          elevation={5}
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            position: "relative",
-            backgroundColor: "#fbfbfb",
-          }}
-        >
-          <div
-            style={{
-              position: "absolute",
-              top: "0",
-              width: "100%",
-              padding: "1em",
-            }}
-          >
+        <Paper elevation={5} className="p-relative bg-grey h-v-align">
+          <div className="p-absolute top-0 w-100 p-1">
             <Button
               onClick={e => router.replace('/')}
               color="secondary"
@@ -145,13 +128,20 @@ export default function Signup() {
             </Button>
           </div>
 
-          <div style={{ position: "relative" }}>
+          <div className="p-relative">
             <Card sx={{ width: 350 }}>
               <CardContent>
-                <Typography
-                  variant="h4"
+              <Typography
+                  variant="h5"
                   sx={{ textTransform: "uppercase" }}
-                  style={{ marginBottom: ".5em" }}
+                  textAlign="center"
+                >
+                  Toucan Test App
+                </Typography>
+                <Typography
+                  variant="h6"
+                  sx={{ textTransform: "uppercase" }}
+                  className="mb-1"
                   textAlign="center"
                 >
                   SignUp
@@ -192,7 +182,7 @@ export default function Signup() {
                     required
                   />
                   {IsPasswordFocused && (
-                    <div style={{ display: "flex", flexDirection: "column" }}>
+                    <div className="d-flex flex-direction-column">
                       <Typography
                         variant="caption"
                         style={{ color: validateLowercase() ? "green" : "red" }}
@@ -239,12 +229,12 @@ export default function Signup() {
                     type="submit"
                     variant="contained"
                     color="primary"
-                    style={{ width: "100%" }}
+                    className="w-100"
                   >
                     Sign up
                   </Button>
                 </form>
-                <Divider variant="middle" style={{ margin: "2em" }} />
+                <Divider variant="middle" className="m-2" />
                 <div>
                   <Typography variant="subtitle1" sx={{ textAlign: "center" }}>
                     Already have an account?{" "}
