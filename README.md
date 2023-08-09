@@ -1,7 +1,7 @@
 
 ## Important
 
-Antes de ejecutar el proyecto debe, modificar la extension del archivo [`.env.local.example`]  por [`.env.local`]
+Antes de ejecutar el proyecto debe modificar la extension del archivo `.env.local.example`  por `.env.local`
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
