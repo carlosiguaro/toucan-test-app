@@ -29,7 +29,7 @@ export default function MapView() {
             </Button>
           </div>
           <div className="d-flex flex-direction-row">
-            <Typography variant="h6">Toucan App Test</Typography>
+            <Typography variant="h6">Toucan Test App</Typography>
             <Divider className="mx-1" orientation="vertical" variant="middle" flexItem />
             <img src="assets/icons/logo.png" width={150} />
           </div>
