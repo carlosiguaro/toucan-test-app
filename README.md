@@ -1,5 +1,5 @@
 
-## Instruccion antes de ejecutar el proyecto:
+## Instrucciones antes de ejecutar el proyecto:
 
 1. Modificar la extension del archivo `.env.local.example`  por `.env.local`
 
