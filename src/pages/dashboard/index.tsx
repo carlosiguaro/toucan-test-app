@@ -13,11 +13,13 @@ export default function Dashboard() {
 
   return (
     <ProtectedRoute authenticated={true}>
-      <main>
-        <Header />
-        <section>
-          <h1>Welcome {session?.user?.name}</h1>
-        </section>
+      <main id="dashboard">
+        <div>
+          <Header />
+          <section>
+            <h1>Welcome to Dashboard <br /> {session?.user?.name}</h1>
+          </section>
+        </div>
       </main>
     </ProtectedRoute>
   )

@@ -1,7 +1,28 @@
 
-## Important
+## Instruccion antes de ejecutar el proyecto:
 
-Antes de ejecutar el proyecto debe modificar la extension del archivo `.env.local.example`  por `.env.local`
+1. Modificar la extension del archivo `.env.local.example`  por `.env.local`
+
+2. Ejecutar el comando npm install para instalar las dependencias.
+
+3. Levantar la app con el comando `npm run dev`
+
+
+## Importante
+
+El desafio `#1 Desafío 1: Implementar una página de inicio de sesión utilizando Auth0 en Next.js.`
+esta resuelto en el modulo: `src/pages/auth/signin/index.tsx`, pero como explica la documentacion [auth0js#login](https://auth0.com/docs/libraries/auth0js#login) , y luego de varias pruebas, en un dominio de ambiente local, no ha sido posible realizar la utenticacion de usuario.
+Sin embargo la interfaz y los metodos estan sobre el modulo, funciona el flujo bastante bien hasta el punto de autenticarse, validar las credenciales, pero no se puede desarrollar la session del usuario.
+
+
+
+
+
+
+
+
+
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

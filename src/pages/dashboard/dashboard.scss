@@ -1,0 +1,25 @@
+main#dashboard{
+    display: flex;
+    justify-content: center;
+    section{
+        display: flex;
+        justify-content: center;
+        h1 {
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 980px) {
+    main#dashboard{
+        >div{
+            width: 980px;
+        }
+    }
+}
+@media (max-width: 980px) {
+    main#dashboard{
+        >div{
+            width: 100%;
+        }
+    }
+}
