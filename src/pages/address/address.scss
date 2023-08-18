@@ -1,0 +1,25 @@
+div#address-section{
+    display: flex;
+    justify-content: center;
+    >div {
+        address{
+            margin-top: 40px;
+        }
+    }
+}
+
+
+@media (max-width: 980px) {
+    div#address-section{
+        >div:first-child {
+            width: 90%;
+        }
+    }
+}
+@media (min-width: 980px) {
+    div#address-section{
+        >div:first-child {
+            width: 85%;
+        }
+    }
+}

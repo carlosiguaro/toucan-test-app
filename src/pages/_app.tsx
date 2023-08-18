@@ -1,8 +1,8 @@
-import '@/styles/globals.css'
-import '@/styles/utils.css'
-import './components/map/map.css';
-import './components/font-page/font-page.css';
-import 'leaflet/dist/leaflet.css';
+// import '@/styles/utils.css'
+// import './components/map/map.css';
+// import './components/font-page/font-page.css';
+// import 'leaflet/dist/leaflet.css';
+import '@/styles/main.scss'
 
 import { SessionProvider } from "next-auth/react"
 import type { AppProps } from 'next/app'

@@ -1,0 +1,34 @@
+//MaP library style
+@import 'leaflet/dist/leaflet.css';
+//UTILS
+@import "./normalize.css";
+@import "utils.css";
+@import "./variables.scss";
+
+/**COMPONENTS */
+//Preloader component
+@import "./../pages/components/loading-page/loading-page.scss";
+// layout style component
+@import "./../pages/components/layout/layout.scss";
+//header style component
+@import "./../pages/components/header/header.scss";
+//footer style component
+@import "./../pages/components/footer/footer.scss";
+//advertisement style component
+@import "./../pages/components/advertisement/advertisement.scss";
+
+/**VIEWS */
+//Home view
+@import "./../pages/home/home.scss";
+//Services view
+@import "./../pages/services/services.scss";
+//Our process View
+@import "./../pages/our-process/our-process.scss";
+//Contact
+@import "./../pages/contact/contact.scss";
+//Address
+@import "./../pages/address/address.scss";
+//Signup
+@import "./../pages/auth/signup/signup.scss";
+//Signin
+@import "./../pages/auth/signin/signin.scss";

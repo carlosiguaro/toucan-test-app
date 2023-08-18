@@ -1,3 +1,9 @@
+*{
+        font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+}
+.bg-primary {
+    background-color: #2d4293!important;
+}
 .p-relative{
     position: relative!important;
 }
@@ -44,7 +50,7 @@
 }
 
 .loading-container{
-    background-color:rgba(255,255,255,.9);
+    background-color:rgba(255,255,255,.4);
     width:100%;
     z-index:100;
     height:100%;
@@ -72,6 +78,15 @@
 .pl-1{
     padding-left: 1em!important;
 }
+.py-1{
+    padding: 10px 0!important;
+}
+.py-2{
+    padding: 20px 0!important;
+}
+.mb-2{
+    margin-bottom: 15px!important;
+}
 .m-2{
     margin: 2em!important;
 }
@@ -86,6 +101,9 @@
 }
 .mb-1{
     margin-bottom: 1em!important;
+}
+.mt-1{
+    margin-top: 10px!important;
 }
 .font-bold{
     font-weight: bold!important;

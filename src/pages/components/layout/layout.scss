@@ -1,0 +1,112 @@
+body {
+    overflow-x: hidden!important;
+}
+main#layout{
+    display: flex;
+    flex-direction: column;
+    >div:first-child{
+        display: flex;
+        justify-content: center;
+        >div:first-child{
+            min-height: 100vh;
+            >section {
+                display: flex;
+                flex-direction: column;
+                >div:first-child{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    >h1 {
+                        text-align: center;
+                        color: #FFFFFF;
+                        position: relative;
+                        z-index: 2;
+                        font-weight: bold;
+                    }
+
+                    &.we-engineer-opportunity{
+                        background-image: url("/assets/images/home-banner.jpg");
+                        background-position: top;
+                    }
+                    &.services{
+                        background-image: url("/assets/images/services-banner.jpg");
+                        background-position: center;
+                    }
+                    &.our-processes{
+                        background-image: url("/assets/images/ourprocess-banner.jpg");
+                        background-position: 20%;
+                    }
+                    &.contact-us{
+                        background-image: url("/assets/images/contact-banner.jpg");
+                        background-position:top;
+                    }
+                    &.address{
+                        background-image: url("/assets/images/address-banner.jpg");
+                        background-position:center;
+                    }
+
+                    &.sign-up{
+                        background-image: url("/assets/images/signup-banner.jpeg");
+                        background-position:center;
+                    }
+
+                    &.sign-in{
+                        background-image: url("/assets/images/signin-banner.jpg");
+                        background-position:top;
+                    }
+
+                    &::after{
+                        content: '.';
+                        color: transparent;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: $blue-opacity;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 980px) {
+    main#layout{
+        >div:first-child{
+            >div:first-child{
+                width: 980px;
+                >section{
+                    >div:first-child{
+                        height: 207px;
+                        >h1 {
+                            font-size: 55px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 980px) {
+    main#layout{
+        >div:first-child{
+            >div:first-child{
+                width: 100%;
+                >section{
+                    >div:first-child{
+                        height: 106px;
+                        >h1 {
+                            font-size: 33px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
